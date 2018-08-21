@@ -9,5 +9,7 @@
             "App\\Tests\\": "tests/"
         }
     },
-    "require": {}
+    "require": {
+        "phpunit/phpunit": "^5.7"
+    }
 }

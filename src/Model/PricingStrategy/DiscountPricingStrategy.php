@@ -16,6 +16,6 @@ class DiscountPricingStrategy implements PricingStrategyInterface
 
     public function calculatePrice($pricePerProduct, $quantity)
     {
-        return ($pricePerProduct * $quantity) * ($this->discount / 100);
+        return ($pricePerProduct * $quantity) * (100 - $this->discount) / 100;
     }
 }
